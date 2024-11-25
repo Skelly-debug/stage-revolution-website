@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "@/components/NavBar/Navbar";
 import Header from "@/components/HeaderImg/Header";
+import LiveCards from "@/components/LiveCards/LiveCards";
 import Footer from "@/components/Footer/Footer";
 
 function HomeClient() {
@@ -31,6 +32,11 @@ function HomeClient() {
                   loading="lazy"
                 ></iframe>
               </div>
+            </div>
+
+            {/* Upcoming Shows Section */}
+            <div className="w-full max-w-4xl mt-8">
+              <LiveCards />
             </div>
 
             {/* YouTube Section */}

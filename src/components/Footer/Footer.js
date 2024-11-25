@@ -10,7 +10,7 @@ function Footer() {
         <div className="flex flex-col items-center gap-4">
           <div className="flex gap-6">
             <a
-              href="https://www.instagram.com/stagerevolution/"
+              href="https://www.instagram.com/stagerevolution.official/"
               target="_blank"
               rel="noreferrer"
               className="hover:text-gray-500 transition-colors duration-300"
