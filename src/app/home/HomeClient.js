@@ -47,12 +47,11 @@ function HomeClient() {
               <div className="relative overflow-hidden rounded-lg shadow-lg mb-4">
                 <iframe
                   width="100%"
-                  height="500"
-                  src="https://www.youtube.com/embed/bpsFD7buSoQ"
-                  title="49th KNE Festival LIVE 21/09/2023"
+                  height="500vw"
+                  src="https://www.youtube.com/embed/YMRFc8hWqcw?si=VfyXJ8y28EHq_bt1"
+                  title="YouTube video player"
                   frameBorder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  referrerPolicy="strict-origin-when-cross-origin"
                   allowFullScreen
                 ></iframe>
               </div>
