@@ -22,8 +22,8 @@ function HomeClient() {
               </h2>
               <div className="relative overflow-hidden rounded-lg shadow-lg">
                 <iframe
-                  className="radius-[12px]"
-                  src="https://open.spotify.com/embed/track/6g2BiiVQqY5v1S4HIrM54F?utm_source=generator"
+                  style={{ borderRadius: "12px" }}
+                  src="https://open.spotify.com/embed/track/77pUSd7tnGELnBipkVNGxw?utm_source=generator"
                   width="100%"
                   height="152"
                   frameBorder="0"

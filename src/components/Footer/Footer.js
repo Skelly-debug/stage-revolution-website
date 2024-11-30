@@ -19,7 +19,7 @@ function Footer() {
               <Instagram className="h-7 w-7" />
             </a>
             <a
-              href="https://www.facebook.com/stagerevolution/"
+              href="https://www.facebook.com/profile.php?id=61551758282760"
               target="_blank"
               rel="noreferrer"
               className="hover:text-gray-500 transition-colors duration-300"
@@ -28,7 +28,7 @@ function Footer() {
               <Facebook className="h-7 w-7" />
             </a>
             <a
-              href="https://www.youtube.com/stagerevolution"
+              href="https://www.youtube.com/@StageRevolutionOfficial"
               target="_blank"
               rel="noreferrer"
               className="hover:text-gray-500 transition-colors duration-300"

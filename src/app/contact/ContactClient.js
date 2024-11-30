@@ -35,19 +35,28 @@ const ContactClient = () => {
                 <h3 className="font-semibold text-white mb-2">Social Media</h3>
                 <div className="flex space-x-4">
                   <a
-                    href="#"
+                    href="https://www.instagram.com/stagerevolution.official/"
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="Instagram"
                     className="text-neutral-400 hover:text-white duration-300"
                   >
                     Instagram
                   </a>
                   <a
-                    href="#"
+                    href="https://www.facebook.com/profile.php?id=61551758282760"
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="Facebook"
                     className="text-neutral-400 hover:text-white duration-300"
                   >
                     Facebook
                   </a>
                   <a
-                    href="#"
+                    href="https://www.youtube.com/@StageRevolutionOfficial"
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="YouTube"
                     className="text-neutral-400 hover:text-white duration-300"
                   >
                     YouTube
