@@ -1,7 +1,10 @@
 "use client";
 
 import React from "react";
-import { Instagram, Facebook, Youtube, BrandTiktok } from "lucide-react";
+import { Instagram, Facebook, Youtube } from "lucide-react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faSpotify, faSoundcloud } from "@fortawesome/free-brands-svg-icons";
+import { faMusic } from "@fortawesome/free-solid-svg-icons";
 
 function Footer() {
   return (
@@ -35,6 +38,33 @@ function Footer() {
               aria-label="YouTube"
             >
               <Youtube className="h-7 w-7" />
+            </a>
+            <a
+              href="https://open.spotify.com/artist/1H94S9nkMHiYVTUeNksOns"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-gray-500 transition-colors duration-300"
+              aria-label="Spotify"
+            >
+              <FontAwesomeIcon icon={faSpotify} className="h-7 w-7" />
+            </a>
+            <a
+              href="https://soundcloud.com/theband-713156108"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-gray-500 transition-colors duration-300"
+              aria-label="SoundCloud"
+            >
+              <FontAwesomeIcon icon={faSoundcloud} className="h-7 w-7" />
+            </a>
+            <a
+              href="https://music.apple.com/us/artist/stage-revolution/1780852863"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-gray-500 transition-colors duration-300"
+              aria-label="Apple Music"
+            >
+              <FontAwesomeIcon icon={faMusic} className="h-7 w-7" />
             </a>
           </div>
           <p className="text-sm">
