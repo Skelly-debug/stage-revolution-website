@@ -12,7 +12,7 @@ function GalleryClient() {
       <Navbar />
       <Header />
       <div className="flex flex-col items-center gap-8">
-        <h1 className="text-4xl font-semibold font-sans mb-4 mt-10">Gallery</h1>
+        <h1 className="text-4xl text-white font-semibold font-sans mb-4 mt-10">Gallery</h1>
       </div>
       <GalleryGrid />
       <Footer />

@@ -23,8 +23,8 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-16 bg-neutral-900">
-      <div className="max-w-md mx-auto bg-neutral-800 rounded-2xl p-8 shadow-lg animate-fade-in">
+    <div className="container mx-auto px-4 py-16">
+      <div className="max-w-md mx-auto bg-neutral-900 rounded-2xl p-8 shadow-xl animate-fade-in">
         <h2 className="text-3xl font-bold text-white text-center mb-8">
           Contact Us
         </h2>
